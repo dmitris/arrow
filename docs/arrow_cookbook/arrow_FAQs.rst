@@ -9,8 +9,8 @@ How to run arrow tests from Linux box to Windows machine?
 
 Make sure you have following setup before running arrow tests
 
-1. Linux box has arrow installed and it has all the packages listed `here <http://devel-stage.corp.yahoo.com/ynodejs_arrow/guide/arrow_getting_started.html#linux-installation>`_ (Only start arrow_server if you are running unit tests)
-2. Windows machine has `selenium server <http://devel-stage.corp.yahoo.com/ynodejs_arrow/guide/arrow_getting_started.html#selenium-server>`_ up and running (Check http://yourIP:4444/wd/hub is loading fine)
+1. Linux box has arrow installed and it has all the packages listed `here <https://github.com/yahoo/arrow/blob/master/docs/arrow_cookbook/arrow_getting_started.rst#linux-installation>`_ (Only start arrow_server if you are running unit tests)
+2. Windows machine has `selenium server <https://github.com/yahoo/arrow/blob/master/docs/arrow_cookbook/arrow_getting_started.rst#selenium-server>`_ up and running (Check http://yourIP:4444/wd/hub is loading fine)
 3. Now run the arrow test and do not forget to pass the --seleniumHost=http://yourIP:4444/wd/hub while running your tests
 
 ::
