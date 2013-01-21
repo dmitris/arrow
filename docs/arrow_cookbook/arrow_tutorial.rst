@@ -60,7 +60,7 @@ To run against PhantomJS or a Selenium-supported browser, enter:
 TODO... needs to be updated
 
 
-**Note:** `Arrow Server <./arrow_getting_started.html>`_ and `Selenium <./arrow_getting_started.html#start-selenium>`_ need to be running
+**Note:** `Arrow Server <./arrow_getting_started.html>`_ and `Selenium <./arrow_getting_started.rst#start-selenium>`_ need to be running
 
 When you execute using PhantomJS, a screenshot is captured automatically. The screenshot is stored in the location where you executed the test (in this case, ``unit_test/test/``).
 
@@ -125,7 +125,7 @@ To execute the func tests do the following:
 
 2. On a separate command prompt navigate to. ``~/arrow_tutorial/func_test/test``
 
-3. Because these tests require a web page, Arrow defaults the driver to FireFox (**Note** `Selenium Server <./arrow_getting_started.html#start-selenium>`_ must be running), type:
+3. Because these tests require a web page, Arrow defaults the driver to FireFox (**Note** `Selenium Server <./arrow_getting_started.rst#start-selenium>`_ must be running), type:
 
 ::
 

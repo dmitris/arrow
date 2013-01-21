@@ -119,7 +119,7 @@ Solution
 
 You can tell Arrow to point to a specific Selenium Host in two ways
 
-1. Update the `config file's <./arrow_in-depth.html#configuration>`_ seleniumHost value
+1. Update the `config file's <./arrow_in-depth.rst#configuration>`_ seleniumHost value
 2. Use the **--seleniumHost** parameter in your command
 
 **Note** you need to include the **FULL** path to Selenium Server like this:
@@ -140,12 +140,12 @@ When running Arrow Server, you get a buffer error like this
 Solution
 ========
 
-Make sure you have `installed PhantomJS <./arrow_getting_started.html#mac-installation>`_
+Make sure you have `installed PhantomJS <./arrow_getting_started.rst#mac-installation>`_
 
 How can I use the Locator Controller to Login?
 ----------------------------------------------
 
-Built-in, Arrow comes with two controllers, default and `locator <./arrow_in-depth.html#the-locator-controller>`_
+Built-in, Arrow comes with two controllers, default and `locator <./arrow_in-depth.rst#the-locator-controller>`_
 
 Solution
 ========
